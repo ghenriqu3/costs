@@ -1,0 +1,63 @@
+{
+  "projects": [
+    {
+      "name": "projeto 21",
+      "budget": "108888",
+      "category": {
+        "id": "1",
+        "name": "infra"
+      },
+      "cost": 2338,
+      "services": [
+        {
+          "name": "fwefwe",
+          "cost": "3",
+          "description": "fwefwefwefwe",
+          "id": "9bb2183f-ac67-4c2c-b73b-d1d39117c857"
+        },
+        {
+          "name": "wfwefwefwef",
+          "cost": "2",
+          "description": "dsvscvafaaaa",
+          "id": "b724f28e-921b-4ce2-82be-98b38ab3ac4c"
+        },
+        {
+          "name": "qwdqwdqwd",
+          "cost": "2333",
+          "description": "qwdqdqsdqs",
+          "id": "71683310-f477-41df-a494-f5635fe43283"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": "teste",
+      "budget": "1",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 12
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "Name": "infra"
+    },
+    {
+      "id": 2,
+      "Name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "Name": "Design"
+    },
+    {
+      "id": 4,
+      "Name": "Planejamento"
+    }
+  ]
+}
