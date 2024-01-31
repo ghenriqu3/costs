@@ -13,7 +13,7 @@ function ProjectForm({handleSubmit, btnText, projectData}){
 
     //metodo que faz o get do campo select do formulario 
     useEffect(() =>{
-        fetch("http://localhost:5000/categories",{
+        fetch("https://json-server-zeta-three.vercel.app/categories",{
             method: "GET",
             headers: {
                 'Content-Type': 'application/json'

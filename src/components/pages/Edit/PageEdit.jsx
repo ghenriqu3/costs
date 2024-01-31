@@ -24,7 +24,7 @@ function PageEdit(){
 
     useEffect(() =>{
         setTimeout(() => {
-            fetch(`http://localhost:5000/projects/${id}`, {
+            fetch(`https://json-server-zeta-three.vercel.app/projects/${id}`, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
@@ -48,7 +48,7 @@ function PageEdit(){
             return(false)
         }
 
-        fetch(`http://localhost:5000/projects/${project.id}`, {
+        fetch(`https://json-server-zeta-three.vercel.app/projects/${project.id}`, {
             method: 'PATCH',
             headers: {
                 'Content-Type': 'application/json'
@@ -83,7 +83,7 @@ function PageEdit(){
 
         project.cost = newCost
 
-        fetch(`http://localhost:5000/projects/${project.id}`, {
+        fetch(`https://json-server-zeta-three.vercel.app/projects/${project.id}`, {
             method: 'PATCH',
             headers: {
                 'Content-Type': 'application/json',

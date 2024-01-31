@@ -14,7 +14,7 @@ function Projects(){
         project.cost = 0
         project.services = []
 
-        fetch("http://localhost:5000/projects", {
+        fetch("https://json-server-zeta-three.vercel.app/projects", {
             method: "POST",
             headers: {
                 'content-Type': 'application/json',
