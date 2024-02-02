@@ -25,7 +25,7 @@ function Projects(){
         .then((data) => { 
             // console.log(data)
             const state = {message: 'Projeto criado com sucesso'}
-            navigate('/page-project', {state})
+            navigate('https://costs-teal.vercel.app/page-project', {state})
     })
         .catch(err => console.log(err)) 
     }
